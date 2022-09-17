@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+    "useUnknownInCatchVariables": true
+  },
+  "importMap": "./import_map.json",
+  "lint": {
+    "rules": {
+      "tags": ["recommended"],
+      "include": [
+        "camelcase",
+        "default-param-last",
+        "eqeqeq",
+        "no-await-in-loop",
+        "no-const-assign",
+        "no-eval",
+        "no-non-null-asserted-optional-chain",
+        "no-non-null-assertion",
+        "no-sparse-arrays",
+        "no-throw-literal",
+        "no-undef",
+        "prefer-ascii",
+        "single-var-declarator"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "imports": {
+    "~/": "./",
+    "~/ui": "./ui/index.ts",
+    "fresh/": "https://deno.land/x/fresh@1.1.1/",
+    "preact": "https://esm.sh/preact@10.11.0",
+    "preact/": "https://esm.sh/preact@10.11.0/",
+    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@5.2.4",
+    "twind": "https://esm.sh/twind@0.16.17",
+    "twind/": "https://esm.sh/twind@0.16.17/"
+  },
+  "scopes": {
+    "./app1/": {
+      "~/components": "./app1/components/index.ts"
+    },
+    "./app2/": {
+      "~/components": "./app2/components/index.ts"
+    }
+  }
+}
